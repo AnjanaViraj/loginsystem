@@ -1,0 +1,86 @@
+<html>
+
+<head>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+
+	<style>
+		table, th, td{
+			border: 2px solid black;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="home.css">
+
+</head>
+
+<body>
+	<STYLE>A {text-decoration: none;} </STYLE>
+
+	<section>
+
+
+		<div>
+
+			<ul class="navbar" style="top: 0; height: 7%; width: 100%; margin: 0% 0% 0% -45%;">
+
+				<li class="list1"><a class="active" href=""></a>Home</li>
+
+				<li class="list1"><a href=""></a>User</li>
+
+			</ul>
+
+		</div>
+
+
+
+		<div id="UserListApp">
+
+			<h1 class="heading12">User Form</h1>
+	
+			<table class="TableStyle" >
+
+				<tr class="member">
+
+					<th>First Name</th>
+
+					<th>Last Name</th>
+
+					<th>Mobile</th>
+
+				</tr>
+
+			</table>
+
+			<br><br>
+
+			<button v-on:click="Get()"> Get </button>
+
+		</div>
+
+	</section>
+
+	<script>
+	
+		var UserListApp = new Vue({
+  		el: '#UserListApp',
+
+  		data: {
+
+			
+
+		  }
+
+		})
+	
+	</script>
+
+</body>
+
+</html>
+
+
+
+
+

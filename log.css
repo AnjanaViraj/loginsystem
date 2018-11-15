@@ -1,0 +1,134 @@
+
+
+.body {
+	width: 100%;
+    height: auto;
+	background-image: linear-gradient(-90deg, #407FAA, #A3D6EC);
+	display: flex;
+  	justify-content: center;
+	padding: 0px;
+	margin-left: -46px;
+	text-align: center;
+    padding-top: 52px;
+}
+
+#heding {
+	margin-bottom: 15px;
+	margin-left: -24px;
+	font-size: 13px;
+	font-style: normal;
+	font-family: Arial, serif;
+	text-align: center;
+    font-size: 30px;
+    color: #fff;
+	padding-left: 0px;
+	margin-top: 165px;
+}
+
+.paragraph {
+	color: #fff;
+	margin-left: -12px;
+	font-size: 11px;
+	font-style: normal;
+	font-family: Arial, serif;
+	width: 575px;
+	height: 15px;
+}
+
+.container1 {
+	border-radius: 0px 0px 7px 7px;
+    margin: 3px auto;
+    margin-top: 28px;
+    width: 578px;
+    height: 352px;
+	/*padding: 10px 0px 0px 106px;*/
+}
+
+.email1 {
+	font-size: 11px;
+    font-style: normal;
+    font-family: Arial, serif;
+    box-shadow: 1px 2px 26px -7px;
+    width: 323px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #32658F;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-left: 18px;
+}
+
+.pg {
+	padding: 0px 45px 0px 2px;
+    margin: -15px 132px -30px 0px;
+    color: #fff;
+}
+
+.container1 input[type=email] {
+    padding-left: 18px;
+}
+
+.container1 {
+    position: relative;
+}
+
+.container1 src {
+    position: absolute;
+    padding: 0px 55px 0px 5px;
+    margin: 0px 0px -5px -58px;
+}
+
+.check {
+	border:3px;
+	font-size: 11px;
+	font-style: normal;
+	font-family: Arial, serif;
+	color: black;
+	width: 30px;
+	padding: 0px 0px 0px 0px;
+	margin: 3px 128px 0px -202px; 
+}
+
+input[class="check"] + label {
+    border: solid 3px #0000FE;
+    background: #73A0BF;
+    background: -moz-radial-gradient(#B2DBFF, #dfdfdf);
+    background: -webkit-radial-gradient(#B2DBFF, #dfdfdf);
+    background: -ms-radial-gradient(#B2DBFF, #dfdfdf);
+    background: -o-radial-gradient(#B2DBFF, #dfdfdf);
+    background: radial-gradient(#B2DBFF, #dfdfdf);
+}
+
+input[class="check"]:checked + label {
+    color: #0000FE;
+}
+
+button {
+	font-size: 13px;
+	font-style: normal;
+	font-family: Arial, serif;
+	border: none;
+	border: 0px solid #497A3C;
+	box-shadow: 1px 2px 26px -7px;
+	margin-left: 10px;
+    margin-right: 10px;
+	margin-bottom: -2px;
+    padding: 10px 20px 11px 20px;
+    background: #427534;
+    color: white;
+    border-radius: 10px;
+    width: 185px;
+    height: 40px;
+}
+
+.abc {
+	color: #494949;
+	font-size: 13px;
+	font-style: normal;
+	font-family: Arial, serif; 
+	
+}
+
+#showDiv2:hover ~ .container12 {
+    visibility: visible;
+}

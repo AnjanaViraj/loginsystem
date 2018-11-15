@@ -1,0 +1,82 @@
+
+<html>
+
+<head>
+  
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" ></script>
+
+	<link rel="stylesheet" type="text/css" href="reg.css">
+
+</head>
+
+<body>
+	<STYLE>A {text-decoration: none;} </STYLE>
+
+	<section>
+
+		<form>
+	
+			<div class="container1" id="app">
+
+    				<h1 id="heding" style="text-align: center;"> REGISTER FORM </h1>
+        
+					<p class="paragraph" > CREATE AN ACCOUNT FOR THE PERSYSTANCE NETWORKS. </p>
+                
+					<input class="name" type="text" name="Fname" placeholder="First Name" v-model="account.Fname" required />
+			
+					<input class="name" type="text" name="Lname" placeholder="Last Name" v-model="account.Lname" required />
+
+				<br><br>
+
+					<input class="email1" type="email" name="email" placeholder="Email Id" v-model="account.email" required /> 
+				
+				<br><br>
+
+					<input class="pass" type="password" name="pass1" placeholder="Password" v-model="account.pass" required />
+			
+					<input class="pass" type="password" name="pass2" placeholder="Conform Password" v-model="account.Conpass" required />
+
+				<br><br>
+
+					<input class="mobile" type="tel" name="Mnumber" placeholder="Phone Number" v-model="account.mobile" required />
+
+				<br><br>
+
+					<button> Register </button>
+
+				<br><br>
+
+					<a href="" class="abc"> Already have an account? </a>
+					<a href="" class="xyz"> Login Here </a>
+
+		 	</div>
+
+		</form>
+
+	</section>
+
+	<script>
+	
+		var app = new Vue({
+  		el: '#app',
+
+  		data: {
+   			account: {
+				  	Fname: "anjan",
+					Lname: "viraj",
+					email: "anjana@gmail.com",
+					pass: "anjana@123",
+					Conpass: "anjana@123",
+					mobile: "0766559314",
+			   }
+  	 	}
+	})
+	
+	</script>
+
+</body>
+
+</html>
+
+
+					
